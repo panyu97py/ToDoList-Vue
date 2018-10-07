@@ -1,0 +1,13 @@
+// 由于采用了mock.js 所以弃用
+[
+  { "id": 1, "content": "vuex", "isFinished": false },
+  { "id": 2, "content": "Vue多入口多出口", "isFinished": false },
+  {
+    "id": 3,
+    "content": "Vue:router的beforeEach与afterEach钩子函数",
+    "isFinished": false
+  },
+  { "id": 4, "content": "Vue路由配置", "isFinished": true },
+  { "id": 5, "content": "Vue 路由跳转及传参", "isFinished": true },
+  { "id": 6, "content": "Vue生命周期函数mounted", "isFinished": true }
+]
