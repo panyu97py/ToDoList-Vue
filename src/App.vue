@@ -1,8 +1,9 @@
 <template>
   <div id="app">
-    <add-task>
+          <router-view/>
+    <!-- <add-task>
       <router-view/>
-    </add-task>
+    </add-task> -->
 
   </div>
 </template>

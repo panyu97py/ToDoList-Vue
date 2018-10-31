@@ -8,35 +8,42 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'tasklist',
-      component: () => import('@/components/TaskList'),
-      children: [
-        {
-          path: '/',
-          name: '/allTask',
-          component: () => import('@/components/AllTask')
-        },
-        {
-          path: '/allTask',
-          name: 'allTask',
-          component: () => import('@/components/AllTask')
-        },
-        {
-          path: '/isFinishedTask',
-          name: 'isFinishedTask',
-          component: () => import('@/components/IsFinishedTask')
-        },
-        {
-          path: '/notFinishedTask',
-          name: 'notFinishedTask',
-          component: () => import('@/components/NotFinishedTask')
-        },
-        {
-          path: '/testTask',
-          name: 'testTask',
-          component: () => import('@/components/testTask')
-        }
-      ]
+      name: 'overview',
+      component: () => import('@/views/app/index')
     }
   ]
+  // routes: [
+  //   {
+  //     path: '/',
+  //     name: 'tasklist',
+  //     component: () => import('@/components/TaskList'),
+  //     children: [
+  //       {
+  //         path: '/',
+  //         name: '/allTask',
+  //         component: () => import('@/components/AllTask')
+  //       },
+  //       {
+  //         path: '/allTask',
+  //         name: 'allTask',
+  //         component: () => import('@/components/AllTask')
+  //       },
+  //       {
+  //         path: '/isFinishedTask',
+  //         name: 'isFinishedTask',
+  //         component: () => import('@/components/IsFinishedTask')
+  //       },
+  //       {
+  //         path: '/notFinishedTask',
+  //         name: 'notFinishedTask',
+  //         component: () => import('@/components/NotFinishedTask')
+  //       },
+  //       {
+  //         path: '/testTask',
+  //         name: 'testTask',
+  //         component: () => import('@/components/testTask')
+  //       }
+  //     ]
+  //   }
+  // ]
 })
