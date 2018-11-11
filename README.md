@@ -2,7 +2,7 @@
 
 > A Vue.js project
 ## Project preview address
-panyu97py.github.io/ToDoList-Vue/dist/index.html
+[Project preview address](https://panyu97py.github.io/ToDoList-Vue/dist/index.html)
 
 ## Build Setup
 
