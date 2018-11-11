@@ -7,6 +7,7 @@ import axios from 'axios'
 import store from '@/store/index'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+import '@/styles/index.scss'
 Vue.prototype.$http = axios
 Vue.config.productionTip = false
 require('./mock.js')
