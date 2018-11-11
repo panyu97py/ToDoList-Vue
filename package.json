@@ -19,6 +19,7 @@
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
     "mockjs": "^1.0.1-beta3",
+    "node-sass": "^4.10.0",
     "sass-loader": "^7.1.0",
     "vue": "^2.5.2",
     "vue-resource": "^1.5.1",

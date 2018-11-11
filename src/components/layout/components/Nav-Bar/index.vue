@@ -1,6 +1,6 @@
 <template>
   <div>
-    <hamburger :toggle-click="toggleSideBar" :is-active="isCollapse" class="hamburger-container" />
+    <hamburger :toggle-click="toggleSideBar" :is-active="!isCollapse" class="hamburger-container" />
     <breadcrumb />
     <el-breadcrumb separator-class="el-icon-arrow-right">
       <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
