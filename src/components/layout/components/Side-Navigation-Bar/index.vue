@@ -1,6 +1,6 @@
 <template>
   <!-- el-scrollbar 滚动条组件 -->
-  <el-scrollbar>
+  <el-scrollbar wrap-class="scrollbar-wrapper">
     <!-- default-active 默认展开 -->
     <el-menu default-active="1-4-1" class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose" :collapse="isCollapse" background-color="#545c64" text-color="#fff" active-text-color="#ffd04b">
       <el-submenu index="1">
